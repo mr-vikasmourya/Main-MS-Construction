@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS-Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" class="hi" href="/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/logo2.png"  alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa " onclick="hideMenu()">&#10006;</i>
+                <ul>
+                    <li> <a href="/index.html">HOME</a></li>
+                    <li> <a href="/about.html">ABOUT US</a></li>
+                    <li> <a href="/services.html">SERVICES</a></li>
+                    <li> <a href="/Gallery.html">PROJECT GALLERY</a></li>
+                    <li> <a href="/contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class=" container" onclick="showMenu()">
+                <div class="bar1"></div>
+                <div class="bar1"></div>
+                <div class="bar1"></div>
+            </div>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+
+
+    <!---------------------------------- about us content  ----------------------------------------------->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Good Building come From Good People"...</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime aspernatur voluptate, nesciunt, culpa ut, asperiores esse vero sapiente repudiandae ea a sint eos. Labore iste debitis sapiente optio voluptatem, accusantium maiores ut adipisci magnam veniam? Harum blanditiis consectetur quam  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel vero magni voluptate eos eius! </p>
+                <a href="/services.html" class="hero-btn red-btn" >EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+               <video width="550" height="250" controls autoplay muted >
+                   <source src="/images/VID-20220115-WA0000.mp4" type="video/mp4">
+               </video>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---------------------------------------- Footer ----------------------------------------------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Every Foundation is involved in the Construction of the world as we know it.
+            <br>, A solid Foundation is key to a Building's Construction.
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/i/flow/login" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"> </i> By Vikash Mourya</p>
+        <p class="text-footer">
+            Copyright &copy; 2022-23 www.MS construction.com - All rights reserved
+        </p>
+    </section>
+    <!------------Javascript for toggl Menu----------------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0px";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-160px";
+        }
+
+    </script>
+</body>
+
+</html>
